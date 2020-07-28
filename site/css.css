@@ -1,9 +1,85 @@
+.cont{
+	background-color:green;
+	position: relative;
+	
+}
+.title{
+	position: absolute;
+	top: 0px;
+	left: 90%;
+}
+#chiken{
+	left:84%;
+}
 #p1{
-	background-color:green
+padding-top: 20px
 }
 #p2{
-	background-color:green
+padding-top: 20px
 }
 #p3{
-	background-color:green
+padding-top: 20px
+}
+
+@media (min-width: 992px ){
+	
+.cont{
+	width: 32%;
+	overflow: auto;
+	border: 2px solid white;
+	float: left;
+	height:200px;
+	padding:4px;
+	margin-left: 13px;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px ){
+#cont{
+	width: 48%;
+	overflow: auto;
+	border: 4px solid white;
+	float: left;
+	height:200px;
+	padding: 4px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#cont2{
+	width: 98%;
+	clear: left;
+	overflow: auto;
+	border: 4px solid white;
+	float: left;
+	height:200px;
+	padding: 4px;
+	margin-top: 15px;
+	margin-left: 6px;
+	
+}
+}
+@media (max-width: 767px ){
+	
+.cont{
+	width: 99%;
+	overflow: auto;
+	border: 2px solid white;
+	float: left;
+	height:200px;
+	padding:4px;
+	margin-top: 10px;
+	margin-left: 4px;
+	
+	
+
+	
+	
+}
+}
+*{
+	box-sizing:border-box;
+	margin: 0px;
+	
+
 }
